@@ -12,9 +12,9 @@
  *
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
- * 
+ *
  * Note:  Matrix is a little wacky with the rotary encoder click mapping being
- * on the opposite side of the board.  Remember to pay attention to 
+ * on the opposite side of the board.  Remember to pay attention to
  * the 13th column where the lone key mapped for rotary encoder click (K132).
 */
 
@@ -22,7 +22,7 @@
 
 #include "quantum.h"
 
-#define LAYOUT( \
+#define LAYOUT_ROPRO( \
          K10, K20, K30, K40, K50, K60, K70, K80, K90, K100, K110, K120, \
          K11, K21, K31, K41, K51, K61, K71, K81, K91, K101, K111, K121, \
     K132, K12, K22, K32, K42, K52, K62, K72, K82, K92, K102, K112, K122, \
