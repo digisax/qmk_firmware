@@ -96,6 +96,54 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
         }
         return false;
         break;
+    case HEHE:
+        if(record->event.pressed) {
+            SEND_STRING(":ehehe:");
+        }
+        return false;
+        break;
+    case SWAVE:
+        if(record->event.pressed) {
+            SEND_STRING(":SleepyWave:");
+        }
+        return false;
+        break;
+    case EYES:
+        if(record->event.pressed) {
+            SEND_STRING(":eyesssss:");
+        }
+        return false;
+        break;
+    case SHRUG:
+        if(record->event.pressed) {
+            SEND_STRING(":shrug~1:");
+        }
+        return false;
+        break;
+    case WAVEB:
+        if(record->event.pressed) {
+            SEND_STRING(":wavebothhands:");
+        }
+        return false;
+        break;
+    case EYESL:
+        if(record->event.pressed) {
+            SEND_STRING(":eyeslove:");
+        }
+        return false;
+        break;
+    case WHAT:
+        if(record->event.pressed) {
+            SEND_STRING(":what:");
+        }
+        return false;
+        break;
+    case HAPPY:
+        if(record->event.pressed) {
+            SEND_STRING(":happyday:");
+        }
+        return false;
+        break;
   }
   return true;
 }

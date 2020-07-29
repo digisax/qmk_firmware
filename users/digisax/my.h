@@ -48,6 +48,7 @@ enum planck_layers {
   _GUI,
   _ADJUST,
   _NUMPAD,
+  _MACROS,
 };
 
 enum user_keycodes {
@@ -62,6 +63,16 @@ enum user_keycodes {
   SEND_VERSION,
   DYNAMIC_MACRO_RANGE,
   BACKLIT,
+  HEHE,
+  SWAVE,
+  EYES,
+  SHRUG,
+  WAVEB,
+  EYESL,
+  WHAT,
+  HAPPY,
+
+
 };
 
 #define TAPPING_TOGGLE 1
@@ -71,6 +82,7 @@ enum user_keycodes {
 
 #define LOWER MO(_LOWER)
 #define RAISE MO(_RAISE)
+#define MACROL MO(_MACROS)
 
 #define NAV_S LT(_NAV, KC_SPC)
 #define NAV TT(_NAV)
