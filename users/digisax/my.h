@@ -1,4 +1,4 @@
-/* Copyright 2019 Matt Horgan
+/* Copyright 2019 Mel Horgan
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -75,7 +75,7 @@ enum user_keycodes {
 
 };
 
-#define TAPPING_TOGGLE 1
+//#define TAPPING_TOGGLE 1
 
 // Dynamic macros add additional keycodes.
 #define NEW_SAFE_RANGE (DYNAMIC_MACRO_PLAY2 + 1)

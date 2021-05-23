@@ -1,6 +1,6 @@
 #include "my.h"
 //#include "my_leader.h"
-#include "dynamic_macro.h"
+//#include "dynamic_macro.h"
 
 void matrix_init_user(void) {
 }
@@ -76,7 +76,7 @@ uint32_t layer_state_set_user(uint32_t state) {
   return update_tri_layer_state(state, _LOWER, _RAISE, _ADJUST);
 }
 
-bool process_record_user(uint16_t keycode, keyrecord_t *record) {
+/*bool process_record_user(uint16_t keycode, keyrecord_t *record) {
   switch (keycode) {
     case QWERTY:
       if (record->event.pressed) {
@@ -146,4 +146,4 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
         break;
   }
   return true;
-}
+}*/
